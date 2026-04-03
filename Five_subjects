@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main ()
+{
+    float PPS, Physics, EE, EVS, Maths, Sum, Percentage;
+    printf("Enter the marks of PPS:\n");
+    scanf("%f",&PPS);
+    printf("Enter the marks of Physics:\n");
+    scanf("%f",&Physics);
+    printf("Enter the marks of EE\n");
+    scanf("%f",&EE);
+    printf("Enter the marks of EVS\n");
+    scanf("%f",&EVS);
+    printf("Enter the marks of Maths\n");
+    scanf("%f",&Maths);
+    Sum=PPS+Physics+EE+EVS+Maths;
+    printf("The total marks is %f\n",Sum);
+    Percentage= Sum/500*100;
+    printf("The percentage is %f\n",Percentage);
+    printf("Welcome");
+    return 0;
+}
