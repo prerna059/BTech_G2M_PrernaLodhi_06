@@ -1,0 +1,4 @@
+functions name and variables name inside that function preferred not to be of same name.
+Inverted commas for char n strings.
+no printfs inside a value returning(for ex int) functions (esp when the formula is directly in front of return)
+if ya wanna use printfs ya hafta take a variable to store that formula n further printf in statement but for this u will have to take void fn.
